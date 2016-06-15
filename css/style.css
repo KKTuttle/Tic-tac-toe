@@ -6,6 +6,7 @@
   height: 420px;
   background-image: url("tictoe.png");
   position: absolute;
+  background-color: rgba(255, 0, 0, 0.5);
   top: 20%;
   left: 33%;
 }
@@ -15,28 +16,30 @@
 }
 
 body {
-  text-align: center;
   margin-top: 100px;
   background-image: linear-gradient(90deg, #FF7575, #650070);
   font-family: 'Questrial';
 }
 
 h1 {
+  text-align: center;
   font-size: 128px;
 }
 .boxes {
-
-  background-color: rgba(255, 0, 0, 0.5);
   width:140px;
   height:140px;
-
 }
-#rightRow {
+#rightCol {
   float: right;
 }
-#midRow {
-  float: right;
+#midCol {
+  float: left;
 }
-#leftRow {
-  
+#leftCol {
+  float:left;
+}
+img {
+position: absolute;
+width: 139px;
+height: 139px;
 }
